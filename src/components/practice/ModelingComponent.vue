@@ -6,9 +6,9 @@
         </v-row>
 
         <v-row>
-            <v-col><v-btn @click.stop="increment">incr</v-btn></v-col>
-            <v-col><v-btn @click.stop="decrease">decr</v-btn></v-col>
-            <v-col><v-btn @click.stop="reset">reset</v-btn></v-col>
+            <v-col><v-btn @click.stop="increment" color="sid_btn1">incr</v-btn></v-col>
+            <v-col><v-btn @click.stop="decrease" color="sid_btn1">decr</v-btn></v-col>
+            <v-col><v-btn @click.stop="reset" color="sid_btn1">reset</v-btn></v-col>
         </v-row>
     </v-container>
     
